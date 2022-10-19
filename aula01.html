@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando IMG</title>
+     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <h1><strong>VOCÊ DISSE DUVIDO?</strong></h1>
+</head>
+<body>
+    Meu pau no seu ouvido
+    <hr>
+    <p><strong>Temos aqui o Homem mais lindo do mundo!</strong> </p>
+<img src="logohtml.png" alt="imagem minha">
+<p>Da Uma nota ai vai(DE 1 A 10)
+    <input type="number" name="numero" id="numero">
+    <input type="button" value="botãokk" onclick="verificar()">
+</p>
+<p>Maior que 6 = Lindo &#128525; </p>
+<p>Menor que 6 = Feio &#128517; </p>
+<div id="res">
+</div>
+<script>
+    let nome = window.prompt('Ninja,Aguinaldo ou Enzo ?')
+    window.alert('Bem vindo,' + nome )
+    function verificar () {
+        let res = document.getElementById('res')
+        let numero = document.getElementById('numero')
+        var n = Number(numero.value)
+if (n > 10 ) {
+window.alert('EU DISSE DE 1 A 10 ARROMBADO!')
+} else if (n < 6) {
+
+    res.innerHTML = 'Me deu menor que 6 ne ?Fela da P@#$'
+} else  {
+  (n > 6) 
+   res.innerHTML = 'Obrigado arrombado,Mais você É feio !'
+}
+
+
+}
+</script>
+
+</body>
+
+</html>
